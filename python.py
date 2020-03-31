@@ -1,4 +1,4 @@
-#
+#test
 def add(x, y):
    return x + y
 
@@ -27,7 +27,7 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+   print("num1 + num2= ", add(num1,num2))
 
 elif choice == '2':
    print(num1,"-",num2,"=", subtract(num1,num2))
