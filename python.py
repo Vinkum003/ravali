@@ -9,4 +9,5 @@ round3 = int(raw_input("Enter score for round 3: "))
 average = (round1 + round2 + round3) / 3
 
 # Print out the test score
-print "the average score is: ", average 
+print("the average score is: ", average)
+
